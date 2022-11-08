@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .main {
-    padding: 0 20px 40px;
+    padding: 0 20px 60px;
 }
 
 .ui-list {
@@ -13,10 +13,21 @@
     &__item {
         position: relative;
         height: 250px;
-        background-color: blue;
         border-radius: 6px;
         background-color: #FFF;
         transition: 0.3s ease-in-out all;
+        overflow: hidden;
+
+        // for문 적용!
+        background-image: url('../img/img.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        &:hover {
+            transform: scale(1.03);
+            box-shadow: 5px 6px 10px 4px rgb(255 255 255 / 10%);
+        }
     }//ui-list__item
 
     &__link {    

@@ -109,7 +109,7 @@ input {
 }
 
 .main {
-  padding: 0 20px 40px;
+  padding: 0 20px 60px;
 }
 
 .ui-list {
@@ -121,15 +121,26 @@ input {
 .ui-list__item {
   position: relative;
   height: 250px;
-  background-color: blue;
   border-radius: 6px;
   background-color: #FFF;
   transition: 0.3s ease-in-out all;
+  overflow: hidden;
+  background-image: url("../img/img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ui-list__item:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 6px 10px 4px rgba(255, 255, 255, 0.1);
 }
 .ui-list__link {
   display: block;
   width: 100%;
   height: 100%;
+}
+.ui-list__img {
+  width: 100%;
 }
 .ui-list__title {
   position: absolute;
