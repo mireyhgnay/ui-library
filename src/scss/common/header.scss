@@ -9,7 +9,7 @@
         font-size: 40px;
         font-weight: 500;
         font-family: "Cardo", serif;
-        line-height: 55px;
+        line-height: 1.5;
     }//header__title
 
     &__subtitle {
@@ -22,7 +22,7 @@
                 @include position(absolute,null,null,0,0);
                 width: 100%;
                 height: 23px;
-                background-color: #ff5677;
+                background-color: $color1;
                 z-index: -1;
                 content: "";
             }

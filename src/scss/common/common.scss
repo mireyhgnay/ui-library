@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.ui-library {
+    background-color: #000;
+
+    &.bg2 {
+        background-color: $background;
+    }
+}
