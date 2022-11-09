@@ -5,10 +5,11 @@
 }
 
 .ui-list {
-    width: 100%;
-    display: grid;
-    gap: 3rem 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    &__list {
+        display: grid;
+        gap: 3rem 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    }//ui-list__list
 
     &__item {
         position: relative;
