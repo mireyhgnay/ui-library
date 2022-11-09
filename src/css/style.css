@@ -110,6 +110,20 @@ input {
   background-color: #333;
 }
 
+.ui-library::-webkit-scrollbar {
+  width: 10px;
+}
+
+.ui-library::-webkit-scrollbar-thumb {
+  height: 30%;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.ui-library::-webkit-scrollbar-track {
+  background: #000;
+}
+
 .ui-list__main {
   padding: 0 20px 60px;
 }

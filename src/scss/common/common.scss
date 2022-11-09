@@ -7,3 +7,16 @@
         background-color: $background;
     }
 }
+
+// scrollbar custom
+.ui-library::-webkit-scrollbar {
+    width: 10px; 
+}
+.ui-library::-webkit-scrollbar-thumb {
+    height: 30%;
+    background: #fff;
+    border-radius: 6px;
+}
+.ui-library::-webkit-scrollbar-track {
+    background: #000;
+}
